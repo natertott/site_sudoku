@@ -7,8 +7,9 @@ sys.path.append('/Users/natej/g2full/GSASII/')
 import GSASIIscriptable as G2sc
 
 # define a path to the cif that you want to use as the original
-workPath = os.getcwd()
-dataPath = workPath + '/dataDir/'
+homePath = os.getcwd()
+workPath = homePath + '/workDir/'
+dataPath = homePath + '/dataDir/'
 cifPath = dataPath + 'I-4m2.cif'
 
 def total_agreement(occupancy_guess,
