@@ -1,0 +1,68 @@
+ 
+######################################################################
+data_I-4m2
+
+# phase info for I-4m2 follows
+_pd_phase_name  I-4m2
+_cell_measurement_temperature  ?
+_cell_length_a  4.448103
+_cell_length_b  4.448103
+_cell_length_c  6.388377
+_cell_angle_alpha  90
+_cell_angle_beta   90
+_cell_angle_gamma  90
+_cell_volume  126.398
+_exptl_crystal_density_diffrn  14.0027
+_symmetry_cell_setting  tetragonal
+_symmetry_space_group_name_H-M  "I -4 m 2"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  y,-x,-z
+     3  -x,-y,z
+     4  -y,x,-z
+     5  -x,y,z
+     6  y,x,-z
+     7  x,-y,z
+     8  -y,-x,-z
+     9  1/2+x,1/2+y,1/2+z
+    10  1/2+y,1/2-x,1/2-z
+    11  1/2-x,1/2-y,1/2+z
+    12  1/2-y,1/2+x,1/2-z
+    13  1/2-x,1/2+y,1/2+z
+    14  1/2+y,1/2+x,1/2-z
+    15  1/2+x,1/2-y,1/2+z
+    16  1/2-y,1/2-x,1/2-z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Nb1    Nb   0.00000     0.00000     0.00000     1.0000     Uiso 0.0132     2   
+Nb2    Nb   0.50000     0.50000     0.50000     1.0000     Uiso 0.0130     2   
+Nb3    Nb   0.00000     0.00000     0.50000     1.2907     Uiso 0.0100     2   
+Nb4    Nb   0.50000     0.50000     1.00000     0.8366     Uiso 0.0100     2   
+Nb5    Nb   0.00000     0.50000     0.25000     0.0179     Uiso 0.0100     2   
+Nb6    Nb   0.50000     1.00000     0.75000     0.0179     Uiso 0.0100     2   
+Nb7    Nb   0.00000     0.50000     0.75000     0.7866     Uiso 0.0100     2   
+Nb8    Nb   0.50000     1.00000     1.25000     0.7866     Uiso 0.0100     2   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Nb      11.472
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  2
+_chemical_formula_sum  Nb5.736
+_chemical_formula_weight  532.93
+
+# Difference density results
+_refine_diff_density_max  64.033
+_refine_diff_density_min  -10.459

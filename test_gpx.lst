@@ -1,0 +1,239 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 1
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: I-4m2
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Nb        17.61420  12.01440   4.04183   3.53346   1.18865  11.76600   0.20478  69.79570   3.75591
+ Co        12.28410   7.34090   4.00340   2.34880   4.27910   0.27840  13.53590  71.16920   1.01180
+ Sn        19.18890  19.10050   4.45850   2.46630   5.83030   0.50310  26.89090  83.95710   4.78210
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Nb      Nat. Abund.     92.906    0.705
+ Co      Nat. Abund.     58.933    0.249
+ Sn      Nat. Abund.    118.690    0.623
+
+ Space Group: I -4 m 2
+ The lattice is noncentrosymmetric I-centered tetragonal
+ The Laue symmetry is 4/mmm
+ The lattice point group is -4m2
+ Multiplicity of a general site is 16
+ 
+ The equivalent positions are:
+
+ (0,0,0; 1/2,1/2,1/2)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Y,    -X,    -Z 
+ ( 3)    -X,    -Y,     Z 
+ ( 4)    -Y,     X,    -Z 
+ ( 5)    -X,     Y,     Z 
+ ( 6)     Y,     X,    -Z 
+ ( 7)     X,    -Y,     Z 
+ ( 8)    -Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Nb0     Nb          0.00000   0.00000   0.00000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb1     Nb          0.50000   0.50000   0.50000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb2     Nb          0.00000   0.00000   0.50000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb3     Nb          0.50000   0.50000   1.00000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb4     Nb          0.00000   0.50000   0.25000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb5     Nb          0.50000   1.00000   0.75000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb6     Nb          0.00000   0.50000   0.75000   0.000-4m2(z)    2    I 0.01000                                                
+    Nb7     Nb          0.50000   1.00000   1.25000   0.000-4m2(z)    2    I 0.01000                                                
+    Co0     Co          0.00000   0.00000   0.00000   0.000-4m2(z)    2    I 0.01000                                                
+    Co1     Co          0.50000   0.50000   0.50000   0.000-4m2(z)    2    I 0.01000                                                
+    Co2     Co          0.00000   0.00000   0.50000   0.000-4m2(z)    2    I 0.01000                                                
+    Co3     Co          0.50000   0.50000   1.00000   0.000-4m2(z)    2    I 0.01000                                                
+    Co4     Co          0.00000   0.50000   0.25000   0.000-4m2(z)    2    I 0.01000                                                
+    Co5     Co          0.50000   1.00000   0.75000   0.000-4m2(z)    2    I 0.01000                                                
+    Co6     Co          0.00000   0.50000   0.75000   0.000-4m2(z)    2    I 0.01000                                                
+    Co7     Co          0.50000   1.00000   1.25000   0.091-4m2(z)    2    I 0.01000                                                
+    Sn0     Sn          0.00000   0.00000   0.00000   0.000-4m2(z)    2    I 0.01000                                                
+    Sn1     Sn          0.50000   0.50000   0.50000   0.035-4m2(z)    2    I 0.01000                                                
+    Sn2     Sn          0.00000   0.00000   0.50000   0.000-4m2(z)    2    I 0.01000                                                
+    Sn3     Sn          0.50000   0.50000   1.00000   0.077-4m2(z)    2    I 0.01000                                                
+    Sn4     Sn          0.00000   0.50000   0.25000   0.183-4m2(z)    2    I 0.01000                                                
+    Sn5     Sn          0.50000   1.00000   0.75000   0.242-4m2(z)    2    I 0.01000                                                
+    Sn6     Sn          0.00000   0.50000   0.75000   0.250-4m2(z)    2    I 0.01000                                                
+    Sn7     Sn          0.50000   1.00000   1.25000   0.108-4m2(z)    2    I 0.01000                                                
+
+ Unit cell: a = 4.44810 b = 4.44810 c = 6.38838 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 126.398 Refine? False
+
+ Phase: I-4m2 in histogram: PWDR NP018_pad2.csv
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR NP018_pad2.csv histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Debye-Scherrer
+ Histogram limits:     6.00 deg to    47.34 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale    Absorption     DisplaceX     DisplaceY
+ value :        1.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth         Lam    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.799900    0.990000    0.034684 -552.070634  314.400587  -20.697392
+ refine:                   False       False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    1.684533   90.097300   -7.974393    0.000000
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:      1.000     0.000     0.000
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 3 No. of observations: 2000 No. of parameters: 4 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.112s,    0.056s/cycle, for 2 cycles
+ wR =   22.99%, chi**2 =      91560.4, GOF =   6.77
+
+ Phases:
+ Result for phase: I-4m2
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Nb0     Nb:
+ values:   0.00000   0.00000   0.00000   0.000 0.01000
+ sig   :                                              
+    Nb1     Nb:
+ values:   0.50000   0.50000   0.50000   0.000 0.01000
+ sig   :                                              
+    Nb2     Nb:
+ values:   0.00000   0.00000   0.50000   0.000 0.01000
+ sig   :                                              
+    Nb3     Nb:
+ values:   0.50000   0.50000   1.00000   0.000 0.01000
+ sig   :                                              
+    Nb4     Nb:
+ values:   0.00000   0.50000   0.25000   0.000 0.01000
+ sig   :                                              
+    Nb5     Nb:
+ values:   0.50000   1.00000   0.75000   0.000 0.01000
+ sig   :                                              
+    Nb6     Nb:
+ values:   0.00000   0.50000   0.75000   0.000 0.01000
+ sig   :                                              
+    Nb7     Nb:
+ values:   0.50000   1.00000   1.25000   0.000 0.01000
+ sig   :                                              
+    Co0     Co:
+ values:   0.00000   0.00000   0.00000   0.000 0.01000
+ sig   :                                              
+    Co1     Co:
+ values:   0.50000   0.50000   0.50000   0.000 0.01000
+ sig   :                                              
+    Co2     Co:
+ values:   0.00000   0.00000   0.50000   0.000 0.01000
+ sig   :                                              
+    Co3     Co:
+ values:   0.50000   0.50000   1.00000   0.000 0.01000
+ sig   :                                              
+    Co4     Co:
+ values:   0.00000   0.50000   0.25000   0.000 0.01000
+ sig   :                                              
+    Co5     Co:
+ values:   0.50000   1.00000   0.75000   0.000 0.01000
+ sig   :                                              
+    Co6     Co:
+ values:   0.00000   0.50000   0.75000   0.000 0.01000
+ sig   :                                              
+    Co7     Co:
+ values:   0.50000   1.00000   1.25000   0.091 0.01000
+ sig   :                                              
+    Sn0     Sn:
+ values:   0.00000   0.00000   0.00000   0.000 0.01000
+ sig   :                                              
+    Sn1     Sn:
+ values:   0.50000   0.50000   0.50000   0.035 0.01000
+ sig   :                                              
+    Sn2     Sn:
+ values:   0.00000   0.00000   0.50000   0.000 0.01000
+ sig   :                                              
+    Sn3     Sn:
+ values:   0.50000   0.50000   1.00000   0.077 0.01000
+ sig   :                                              
+    Sn4     Sn:
+ values:   0.00000   0.50000   0.25000   0.183 0.01000
+ sig   :                                              
+    Sn5     Sn:
+ values:   0.50000   1.00000   0.75000   0.242 0.01000
+ sig   :                                              
+    Sn6     Sn:
+ values:   0.00000   0.50000   0.75000   0.250 0.01000
+ sig   :                                              
+    Sn7     Sn:
+ values:   0.50000   1.00000   1.25000   0.108 0.01000
+ sig   :                                              
+
+ Density: 2.9353 g/cm**3
+
+ Phase: I-4m2 in histogram: PWDR NP018_pad2.csv
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 56.11%, 90.13% on 30 reflections
+ Durbin-Watson statistic = 0.015
+ Bragg intensity sum = 6.21e+04
+
+ Histogram: PWDR NP018_pad2.csv histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 22.99% on 2000 observations in this histogram
+ Other residuals: R = 13.29%, R-bkg = 39.98%, wR-bkg = 22.99% wRmin = 3.40%
+ Instrument type: Debye-Scherrer
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Nb       Co       Sn
+ f'     :   -1.374    0.342   -0.455
+ f"     :    0.771    1.206    1.762
+
+ Sample Parameters:
+ names :         Scale    Absorption     DisplaceX     DisplaceY
+ values:        2.7593        0.0000        0.0000        0.0000
+ sig   :        0.2657                                          
+
+ Background function: chebyschev-1
+ value :      816.5    -216.7      33.9
+ sig   :      5.079     7.549     7.233
+ Background sums: empirical 1.61e+06, Debye 0, peaks 0, Total 1.61e+06
